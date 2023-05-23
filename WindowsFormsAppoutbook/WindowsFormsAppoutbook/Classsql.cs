@@ -20,7 +20,7 @@ namespace WindowsFormsAppoutbook
         /// <returns></returns>
         public SqlConnection con()
         {
-            string sqlstr = "Data Source=LAPTOP-GEQB50U9;Initial Catalog=newproject;Integrated Security=True";
+            string sqlstr = "sql连接字符串";
             sc = new SqlConnection(sqlstr);
             sc.Open();
             return sc;

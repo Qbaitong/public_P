@@ -21,5 +21,10 @@ namespace WindowsFormsAppoutbook
         {
             label1.Text = "您好，" + Classnum.num + "同学";
         }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }
