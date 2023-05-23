@@ -1,0 +1,17 @@
+D:\垃圾\图书管理系统\WindowsFormsAppoutbook\WindowsFormsAppoutbook\bin\Debug\WindowsFormsAppoutbook.exe.config
+D:\垃圾\图书管理系统\WindowsFormsAppoutbook\WindowsFormsAppoutbook\bin\Debug\WindowsFormsAppoutbook.exe
+D:\垃圾\图书管理系统\WindowsFormsAppoutbook\WindowsFormsAppoutbook\bin\Debug\WindowsFormsAppoutbook.pdb
+D:\垃圾\图书管理系统\WindowsFormsAppoutbook\WindowsFormsAppoutbook\obj\Debug\WindowsFormsAppoutbook.Properties.Resources.resources
+D:\垃圾\图书管理系统\WindowsFormsAppoutbook\WindowsFormsAppoutbook\obj\Debug\WindowsFormsAppoutbook.csproj.GenerateResource.cache
+D:\垃圾\图书管理系统\WindowsFormsAppoutbook\WindowsFormsAppoutbook\obj\Debug\WindowsFormsAppoutbook.csproj.CoreCompileInputs.cache
+D:\垃圾\图书管理系统\WindowsFormsAppoutbook\WindowsFormsAppoutbook\obj\Debug\WindowsFormsAppoutbook.exe
+D:\垃圾\图书管理系统\WindowsFormsAppoutbook\WindowsFormsAppoutbook\obj\Debug\WindowsFormsAppoutbook.pdb
+D:\垃圾\图书管理系统\WindowsFormsAppoutbook\WindowsFormsAppoutbook\obj\Debug\WindowsFormsAppoutbook.Formfather.resources
+D:\垃圾\图书管理系统\WindowsFormsAppoutbook\WindowsFormsAppoutbook\obj\Debug\WindowsFormsAppoutbook.Formadd.resources
+D:\垃圾\图书管理系统\WindowsFormsAppoutbook\WindowsFormsAppoutbook\obj\Debug\WindowsFormsAppoutbook.FormbookBorrow.resources
+D:\垃圾\图书管理系统\WindowsFormsAppoutbook\WindowsFormsAppoutbook\obj\Debug\WindowsFormsAppoutbook.Formbookreturn.resources
+D:\垃圾\图书管理系统\WindowsFormsAppoutbook\WindowsFormsAppoutbook\obj\Debug\WindowsFormsAppoutbook.FormBorrowingquery.resources
+D:\垃圾\图书管理系统\WindowsFormsAppoutbook\WindowsFormsAppoutbook\obj\Debug\WindowsFormsAppoutbook.Formload.resources
+D:\垃圾\图书管理系统\WindowsFormsAppoutbook\WindowsFormsAppoutbook\obj\Debug\WindowsFormsAppoutbook.Formaddson.resources
+D:\垃圾\图书管理系统\WindowsFormsAppoutbook\WindowsFormsAppoutbook\obj\Debug\WindowsFormsAppoutbook.Formaddson2.resources
+D:\垃圾\图书管理系统\WindowsFormsAppoutbook\WindowsFormsAppoutbook\obj\Debug\WindowsFormsAppoutbook.csproj.AssemblyReference.cache

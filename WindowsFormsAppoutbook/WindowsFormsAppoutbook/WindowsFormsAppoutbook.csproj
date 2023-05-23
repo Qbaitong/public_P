@@ -1,0 +1,150 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{56C2D537-964F-4BAC-BF05-5481FCB7C34F}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>WindowsFormsAppoutbook</RootNamespace>
+    <AssemblyName>WindowsFormsAppoutbook</AssemblyName>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Classform.cs" />
+    <Compile Include="Classnum.cs" />
+    <Compile Include="Classnums.cs" />
+    <Compile Include="Classsql.cs" />
+    <Compile Include="Formaddson.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Formaddson.Designer.cs">
+      <DependentUpon>Formaddson.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Formaddson2.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Formaddson2.Designer.cs">
+      <DependentUpon>Formaddson2.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Formfather.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Formfather.Designer.cs">
+      <DependentUpon>Formfather.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Formadd.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Formadd.Designer.cs">
+      <DependentUpon>Formadd.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormbookBorrow.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormbookBorrow.Designer.cs">
+      <DependentUpon>FormbookBorrow.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Formbookreturn.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Formbookreturn.Designer.cs">
+      <DependentUpon>Formbookreturn.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormBorrowingquery.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormBorrowingquery.Designer.cs">
+      <DependentUpon>FormBorrowingquery.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Formload.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Formload.Designer.cs">
+      <DependentUpon>Formload.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="Formaddson.resx">
+      <DependentUpon>Formaddson.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Formaddson2.resx">
+      <DependentUpon>Formaddson2.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Formfather.resx">
+      <DependentUpon>Formfather.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Formadd.resx">
+      <DependentUpon>Formadd.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormbookBorrow.resx">
+      <DependentUpon>FormbookBorrow.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Formbookreturn.resx">
+      <DependentUpon>Formbookreturn.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormBorrowingquery.resx">
+      <DependentUpon>FormBorrowingquery.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Formload.resx">
+      <DependentUpon>Formload.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>
