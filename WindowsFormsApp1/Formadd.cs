@@ -33,6 +33,11 @@ namespace WindowsFormsApp1
         {
             label7.Text = label7.Text.Substring(1) + label7.Text.Substring(0, 1);
         }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }
           

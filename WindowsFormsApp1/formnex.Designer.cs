@@ -78,8 +78,9 @@
             // 注册ToolStripMenuItem
             // 
             this.注册ToolStripMenuItem.Name = "注册ToolStripMenuItem";
-            this.注册ToolStripMenuItem.Size = new System.Drawing.Size(100, 22);
+            this.注册ToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
             this.注册ToolStripMenuItem.Text = "注册";
+            this.注册ToolStripMenuItem.Click += new System.EventHandler(this.注册ToolStripMenuItem_Click);
             // 
             // 学生管理ToolStripMenuItem
             // 
@@ -100,7 +101,7 @@
             // 添加课程ToolStripMenuItem
             // 
             this.添加课程ToolStripMenuItem.Name = "添加课程ToolStripMenuItem";
-            this.添加课程ToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.添加课程ToolStripMenuItem.Size = new System.Drawing.Size(148, 22);
             this.添加课程ToolStripMenuItem.Text = "添加课程";
             this.添加课程ToolStripMenuItem.Click += new System.EventHandler(this.添加课程ToolStripMenuItem_Click);
             // 

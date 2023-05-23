@@ -54,5 +54,10 @@ namespace WindowsFormsApp1
         {
 
         }
+
+        private void 注册ToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }
